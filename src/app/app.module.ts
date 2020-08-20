@@ -5,7 +5,6 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ShowUsersComponent } from './show-users/show-users.component';
-import { ShowPostsComponent } from './show-posts/show-posts.component';
 import { ShowCommentsComponent } from './show-comments/show-comments.component';
 
 import {CoreModule} from './Services/core.module';
@@ -13,7 +12,6 @@ import {CoreModule} from './Services/core.module';
   declarations: [
     AppComponent,
     ShowUsersComponent,
-    ShowPostsComponent,
     ShowCommentsComponent
   ],
   imports: [
