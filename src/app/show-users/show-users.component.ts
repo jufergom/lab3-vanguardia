@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShowUsersComponent implements OnInit {
 
-  constructor() { }
+  showUserPosts: boolean;
+
+  constructor() { 
+    this.showUserPosts = false;
+  }
 
   ngOnInit(): void {
   }
