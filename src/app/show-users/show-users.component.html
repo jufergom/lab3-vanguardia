@@ -1,7 +1,6 @@
 <div class="card-body">
     <select class="custom-select">
-        <option value="value1">value1</option>
-        <option value="value2">value2</option>
+        <option *ngFor="let user of users" [value]="user.id">{{user.name}}</option>
     </select> 
     <div *ngIf="showUserPosts">
         <p>Show users</p>
